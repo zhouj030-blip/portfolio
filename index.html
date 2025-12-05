@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critical Computation Lab Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">CCL</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="waveCanvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 data-text="CRITICAL COMPUTATION LAB">CRITICAL<br>COMPUTATION<br>LAB</h1>
+                <p class="subtitle">Jichen Zhou</p>
+                <button class="cta-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get In Touch</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate developer with a love for creating beautiful, functional web experiences. I specialize in building responsive websites and applications using modern technologies.</p>
+            <p>When I'm not coding, you can find me exploring new frameworks, contributing to open-source projects, or sharing knowledge with the community.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-title-section">
+                    <div class="project-title-large">LOST AND FOUND</div>
+                </div>
+                <div class="project-info-section">
+                    <h3>Lost and Found</h3>
+                    <p>Interactive p5.js experiment exploring memory and discovery.</p>
+                    <div class="project-tags">
+                        <span class="tag">p5.js</span>
+                        <span class="tag">Creative Coding</span>
+                    </div>
+                    <a href="https://editor.p5js.org/Jichenzhou/full/7nierNLz5" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title-section">
+                    <div class="project-title-large">EXQUISITE CORPSE</div>
+                </div>
+                <div class="project-info-section">
+                    <h3>Exquisite Corpse</h3>
+                    <p>Collaborative generative drawing using sequential composition.</p>
+                    <div class="project-tags">
+                        <span class="tag">p5.js</span>
+                        <span class="tag">Generative Art</span>
+                    </div>
+                    <a href="https://editor.p5js.org/Jichenzhou/full/znHUQv5EF" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title-section">
+                    <div class="project-title-large">FACE GENERATOR</div>
+                </div>
+                <div class="project-info-section">
+                    <h3>Face Generator</h3>
+                    <p>Procedural face synthesis with randomized features.</p>
+                    <div class="project-tags">
+                        <span class="tag">p5.js</span>
+                        <span class="tag">Generative</span>
+                    </div>
+                    <a href="https://editor.p5js.org/Jichenzhou/full/xeAEqo0Kg" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title-section">
+                    <div class="project-title-large">HEARTBEAT</div>
+                </div>
+                <div class="project-info-section">
+                    <h3>Heartbeat</h3>
+                    <p>Audio-reactive visualization simulating a heartbeat signal.</p>
+                    <div class="project-tags">
+                        <span class="tag">p5.js</span>
+                        <span class="tag">Audio</span>
+                    </div>
+                    <a href="https://editor.p5js.org/Jichenzhou/full/oqqzH_vsZ" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title-section">
+                    <div class="project-title-large">RAIN DROP</div>
+                </div>
+                <div class="project-info-section">
+                    <h3>Rain Drop</h3>
+                    <p>Interactive raindrop simulation with kinetic interactions.</p>
+                    <div class="project-tags">
+                        <span class="tag">p5.js</span>
+                        <span class="tag">Simulation</span>
+                    </div>
+                    <a href="https://editor.p5js.org/Jichenzhou/full/K9sFoMNlW" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title-section">
+                    <div class="project-title-large">OPTICAL ILLUSION</div>
+                </div>
+                <div class="project-info-section">
+                    <h3>Optical Illusion</h3>
+                    <p>Visual illusions study using geometry and contrast.</p>
+                    <div class="project-tags">
+                        <span class="tag">p5.js</span>
+                        <span class="tag">Perception</span>
+                    </div>
+                    <a href="https://editor.p5js.org/Jichenzhou/full/3KZyO0ULP" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title-section">
+                    <div class="project-title-large">DATA PORTRAIT</div>
+                </div>
+                <div class="project-info-section">
+                    <h3>Data Portrait</h3>
+                    <p>Visualizing personal data as abstract portraiture.</p>
+                    <div class="project-tags">
+                        <span class="tag">p5.js</span>
+                        <span class="tag">DataViz</span>
+                    </div>
+                    <a href="https://editor.p5js.org/Jichenzhou/full/fu4DGEsRv" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title-section">
+                    <div class="project-title-large">AUTOBIOGRAPHICAL GAME</div>
+                </div>
+                <div class="project-info-section">
+                    <h3>Autobiographical Game</h3>
+                    <p>A personal narrative game exploring memory and place.</p>
+                    <div class="project-tags">
+                        <span class="tag">p5.js</span>
+                        <span class="tag">Narrative</span>
+                    </div>
+                    <a href="https://editor.p5js.org/Jichenzhou/full/FuJNaij_y" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title-section">
+                    <div class="project-title-large">PARTICLE SYSTEM</div>
+                </div>
+                <div class="project-info-section">
+                    <h3>Particle System</h3>
+                    <p>Dynamic particle effects with physics interactions.</p>
+                    <div class="project-tags">
+                        <span class="tag">p5.js</span>
+                        <span class="tag">Physics</span>
+                    </div>
+                    <a href="https://editor.p5js.org/Jichenzhou/full/xk-S70dkB" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React / Vue.js</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Python</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Databases</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>MongoDB & SQL</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Work Together</h2>
+            <p>I'm always interested in hearing about new projects and opportunities.</p>
+            <div class="contact-links">
+                <a href="mailto:lanadelreyzjc@gmail.com" class="contact-link">Email</a>
+                <a href="https://instagram.com/achenn_1231" target="_blank" class="contact-link">Instagram: @achenn_1231</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Critical Computation Lab Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
